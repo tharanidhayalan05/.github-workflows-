@@ -1,5 +1,5 @@
 name: Tharani-pipeline
- on: Workflow-dispatch
+on: Workflow-dispatch
  
 jobs:
 My-test-job: 
