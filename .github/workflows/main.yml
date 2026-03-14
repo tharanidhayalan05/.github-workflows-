@@ -1,0 +1,9 @@
+name: Tharani-pipeline
+ on: Workflow-dispatch
+ 
+jobs:
+My-test-job: 
+    runs-on: ubuntu-latest 
+    steps:
+          - name: Tharani
+          run: echo "Tharani"
