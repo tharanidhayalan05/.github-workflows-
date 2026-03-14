@@ -7,3 +7,12 @@ jobs:
    steps:
     - name: Tharani
       run: echo "Tharani"
+    - name: install java
+      uses: actions/setup-java@v5
+      with:
+         distribution: 'temurin' # See 'Supported distributions' for available options
+         java-version: '25'
+    - name: check java version
+      run: java -version
+    
+     
